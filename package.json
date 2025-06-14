@@ -1,0 +1,27 @@
+{
+  "name": "my-vue-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.3.0",
+    "@capacitor/cli": "7.3.0",
+    "@capacitor/core": "^7.3.0",
+    "cordova-background-geolocation-lt": "^4.17.4",
+    "cordova-plugin-background-fetch": "~7.2.4",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vite-plugin-mkcert": "^1.17.8",
+    "vue-tsc": "^2.2.8"
+  }
+}
